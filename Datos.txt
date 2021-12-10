@@ -1,0 +1,13 @@
+npm uninstall socket.io							'Desinstalar la nueva versión de socket.io
+npm install socket.io@2.3.0						'Instalar esta versión de socket.io
+IO.Socket socket = IO.io('http://192.168.0.15:3000'			'Colocar la ip de la maquina
+late IO.Socket _socket;							'Se agrega late indicando que en algun momento tendra valor.
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.band_names">
+   <application
+        android:label="band_names"
+        android:usesCleartextTraffic="true"				'Permisos para aceptar conexión http
+
+socket_io_client: ^1.0.1						'Versiones de paquetes
+provider: ^5.0.0
